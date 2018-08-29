@@ -1,0 +1,175 @@
+.container {
+  margin: 0 auto;
+  width: 880px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h1 {
+  font-size: 77px;
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+ font-size: 18px;
+}
+
+/* Nav bar */
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: flex-start;
+  padding-bottom: 45px;
+  vertical-align: top;
+  margin-top: 35px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 691px;
+}
+
+header nav a {
+  text-decoration: none;
+  margin: 10px 50px 10px 0;
+  color: lightslategray;
+  justify-content: space-evenly;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+header .logo {
+  display: flex;
+  align-items: flex-end;
+}
+
+.services-header-img {
+  margin-bottom: 45px;
+}
+
+.ourServices {
+  margin-bottom: 45px;
+}
+
+button {
+  background: white;
+  vertical-align: top;
+  margin-top: 20px;
+  padding: 8px 36px;
+  font-size: 16px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
+
+/* row 1 */
+section.ourServices {
+  border-bottom: 1px solid black;
+  padding-bottom: 35px;
+}
+
+section.section-wrapper .firstRow {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+section.section-wrapper .firstRow .row1{
+  border: 1px solid black;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+section.section-wrapper .firstRow .row1:first-child{
+  margin-right: 30px;
+}
+
+/* row 2 */
+section.section-wrapper .secondRow {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+section.section-wrapper .secondRow .row2{
+  border: 1px solid black;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+section.section-wrapper .secondRow .row2:first-child{
+  margin-right: 30px;
+}
+
+/* row 3 */
+section.section-wrapper .thirdRow {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+section.section-wrapper .thirdRow .row3{
+  border: 1px solid black;
+  padding: 25px;
+  margin-bottom: 40px;
+}
+
+section.section-wrapper .thirdRow .row3:first-child{
+  margin-right: 30px;
+}
+
+
+section.about {
+  border-top: 1px solid black;
+  padding-top: 35px;
+  display: flex;
+}
+
+section.about .lets-flex{
+}
+
+section.about .lets-flex ul{
+  padding-top: 25px;
+  padding-left: 25px;
+  list-style-type: disc;
+}
+
+section.about .lets-flex p{
+  margin-right: 40px;
+}
+
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+}

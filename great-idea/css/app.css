@@ -48,6 +48,18 @@ header .logo {
   align-items: flex-end;
 }
 
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
 /* Banner */
 
 .cta {
